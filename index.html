@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Weboldal publikálása GitHubon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weboldal publikálása GitHub Pages segítségével</h1>
+        <p>Egyszerű útmutató statikus weboldal közzétételéhez.</p>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Mi az a GitHub Pages?</h2>
+            <p>
+                A GitHub Pages egy ingyenes szolgáltatás, amellyel statikus weboldalakat tudsz
+                közzétenni közvetlenül egy GitHub repóból. Ideális portfólióhoz, projektek
+                bemutatásához vagy egyszerű infóoldalakhoz.
+            </p>
+        </section>
+
+        <section id="steps">
+            <h2>Lépések a publikáláshoz</h2>
+
+            <article>
+                <h3>1. GitHub fiók és új repository</h3>
+                <ul>
+                    <li>Jelentkezz be a <a href="https://github.com" target="_blank">github.com</a> oldalra.</li>
+                    <li>Kattints a <strong>New</strong> (új repo) gombra.</li>
+                    <li>Adj nevet a repónak (pl. <code>my-website</code> vagy <code>felhasznalonev.github.io</code>).</li>
+                    <li>Állítsd <strong>Public</strong>-ra, majd hozd létre.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>2. Fájlok hozzáadása</h3>
+                <p>Hozz létre helyben két fájlt: <code>index.html</code> és <code>style.css</code>.</p>
+                <ul>
+                    <li>Töltsd fel őket a repóba (Add file → Upload files), vagy használd a Git parancssort.</li>
+                    <li>Ügyelj rá, hogy az <code>index.html</code> a repo gyökerében legyen.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>3. GitHub Pages bekapcsolása</h3>
+                <ul>
+                    <li>Nyisd meg a repó <strong>Settings</strong> menüjét.</li>
+                    <li>Keresd meg a <strong>Pages</strong> részt.</li>
+                    <li>A <strong>Source</strong> alatt válaszd ki a <strong>main</strong> (vagy master) ágat.</li>
+                    <li>Mentés után kapsz egy URL‑t, ahol az oldalad elérhető lesz.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>4. Az oldal elérése és frissítése</h3>
+                <p>
+                    Néhány perc múlva az oldalad elérhető lesz a megadott URL‑en, például:
+                    <code>https://felhasznalonev.github.io/</code> vagy
+                    <code>https://felhasznalonev.github.io/repo-nev/</code>.
+                </p>
+                <p>
+                    Ha módosítod az <code>index.html</code> vagy <code>style.css</code> fájlt és
+                    újra feltöltöd/commitolod, a GitHub Pages automatikusan frissíti a weboldalt.
+                </p>
+            </article>
+        </section>
+
+        <section id="tips">
+            <h2>Tippek</h2>
+            <ul>
+                <li>Mindig ellenőrizd, hogy a CSS fájl neve és elérési útja megegyezik a HTML-ben megadottal.</li>
+                <li>Használj beszédes commit üzeneteket (pl. <em>“Stílus frissítése”</em>).</li>
+                <li>Ha nem látszik az oldal, várj pár percet, majd frissítsd az oldalt a böngészőben.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Készítette: Én – Saját weboldalam GitHub Pages-en</p>
+    </footer>
+</body>
+</html>
